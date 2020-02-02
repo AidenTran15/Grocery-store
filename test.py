@@ -1,2 +1,5 @@
-add_ind = int(input('Please select the item\'s number to add: ')) -1
-print(add_ind)
+data = ['a','b','c','d','e','f','g','j']
+
+for i, item in enumerate(data):
+    print( str(i + 1), item)
+

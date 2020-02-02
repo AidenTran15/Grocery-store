@@ -1,5 +1,9 @@
 cart = []
-menu = ['apple','banana','cheery','avocado','beef','meal','chicken','egg','watermelon','peach','mango','candy','snack','lamb',]
+fruit = ['']
+meal = ['']
+vegestable = ['']
+menu = ['apple', 'cherry']
+
 
 def greeting():
     print(' ------------Welcome to Grocery Store------------')
@@ -17,8 +21,8 @@ def rule():
 """)
 
 def add_item():
-    for index in range(len(menu)):
-        print(str(index + 1) + "." + menu[index])
+    for index, item in enumerate(menu):
+        print(str(index + 1) , item)
 
     add_ind = int(input('Please select the item\'s number to add: ')) -1
     item = menu[add_ind]
@@ -29,8 +33,8 @@ def add_item():
 
 def delete_item():
     print('Your cart have: ')
-    for index in range(len(cart)):
-        print(str(index + 1)  + "." + cart[index])
+    for index,item in enumerate(cart)
+        print(str(index + 1) , item)
 
     print('Please type the number you want to delete: ')
     del_ind = int(input('> '))  - 1
