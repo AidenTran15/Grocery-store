@@ -1,6 +1,6 @@
 cart = []
 fruit = ['']
-meal = ['']
+meal = ['Lamb']
 vegestable = ['']
 menu = ['apple', 'cherry']
 

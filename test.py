@@ -1,5 +1,16 @@
-data = ['a','b','c','d','e','f','g','j']
+picture = [
+  [0,0,0,1,0,0,0],
+  [0,0,1,1,1,0,0],
+  [0,1,1,1,1,1,0],
+  [1,1,1,1,1,1,1],
+  [0,0,0,1,0,0,0],
+  [0,0,0,1,0,0,0]
+]
 
-for i, item in enumerate(data):
-    print( str(i + 1), item)
-
+for row in picture:
+  for pixel in row:
+    if pixel == '1':
+      print("*", end ='')
+    else:
+      print(" ", end ='')
+  print('')
