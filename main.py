@@ -1,5 +1,5 @@
 cart = []
-fruit = ['']
+fruit = ['apple',]
 meal = ['Lamb']
 vegestable = ['']
 menu = ['apple', 'cherry']
